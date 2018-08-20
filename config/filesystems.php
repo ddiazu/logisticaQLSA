@@ -43,10 +43,11 @@ return [
 
     'disks' => [
 
-        'local' => [
+        'certificados' => [
             'driver' => 'local',
-            'root' => storage_path('app'),
+            'root' => public_path('certificados'),
         ],
+
 
         'public' => [
             'driver' => 'local',
